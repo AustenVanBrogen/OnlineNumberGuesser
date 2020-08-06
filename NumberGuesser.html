@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body, html
+        {
+            height: 100%;
+            margin: 0;
+        }
+                .bg 
+                {
+                /* The image used */
+                background-image: url("Eclipse.jpg");
+
+                /* Full height */
+                height: 100%; 
+
+                /* Center and scale the image nicely */
+                background-position: left top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }   
+    </style>
+</head>
+
+<div class = "bg">
+<body style = "background-color: rebeccapurple;">
+    <script src = "NumberGuesser.js"></script>
+    <!--<div style = "background-image: url('Eclipse.jpg');"> -->
+        <h1 style = "color: white;">Austen Made This Website</h1>
+        <!--<img src = "Eclipse.jpg" width = "400" height = "300" alt="Eclipse"> -->
+        <br><br>
+        <p style = "color: white">Guess an integer between 1 and 100</p>
+        <input type = "text" id = "userNum" name = "userNum">
+        <button type = "button" id = "someButton" onclick = "determineIfRight()">Submit answer</button><br><br>
+        <p id = "response" style = "color: white;"></p>
+        <p id = "debugSpot" style = "color: white"></p>
+        </div>
+  
+
+    <script>
+        setValue()
+    </script>
+</body>
+</html>
