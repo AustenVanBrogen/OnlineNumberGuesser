@@ -4,7 +4,7 @@ function finishOrStartOver()
 
     if(answer)
     {
-        window.location.href = "NumberGuesser.html";
+        window.location.href = "index.html";
     }
     else
     {
